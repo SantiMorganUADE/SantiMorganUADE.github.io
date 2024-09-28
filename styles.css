@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(69, 133, 250);
+    padding: 20px 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .foto {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px; 
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav .left-section {
+    display: flex;
+    align-items: center;
+}
+
+nav .items {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1; 
+}
+
+nav .items a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav .items a:hover {
+    color: #007BFF;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.descripcion {
+    flex: 1;
+    margin-left: 20px; 
+}
+
+.imagen {
+    flex: 1; 
+}
+
+.imagen img {
+    width: 70%;
+    height: auto;
+    margin-left: 100px;
+}
+
+.texto-recuadro {
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 80%;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer .titulo-contacto {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer .contacto {
+    display: flex;
+    justify-content: center;
+}
+
+footer .contacto span {
+    font-size: 16px;
+    color: #333;
+    margin: 0 15px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.card-body {
+    margin: 10px 0;
+}
+
+.puesto {
+    margin: 0;
+}
+
+.text-muted {
+    color: #666;
+}
+
+.list-unstyled {
+    list-style-type: none;
+    padding: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.items a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.items a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para las barras de progreso */
+.progress-bar {
+    width: 100%; /* El ancho completo de la barra */
+    background-color: #e0e0e0; /* Color de fondo de la barra */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 8px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.conocimientos{
+    margin-left: 20px;
+}
+
+.progress {
+    height: 20px; /* Altura de la barra */
+    background-color: #e02d2d; /* Color de la barra de progreso */
+    text-align: center; /* Centrar el texto dentro de la barra */
+    line-height: 20px; /* Alinear el texto verticalmente */
+    color: white; /* Color del texto */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Puedes usar este estilo para darle color y personalización a cada barra de acuerdo al porcentaje */
+.progress[style*="width: 60%"] {
+    background-color: #2196F3; /* Cambia el color según el porcentaje */
+}
+
+.progress[style*="width: 40%"] {
+    background-color: #FF9800;
+}
+
+.progress[style*="width: 50%"] {
+    background-color: #f4e136;
+}
+
+.progress[style*="width: 70%"] {
+    background-color: #673AB7;
+}
+
+.progress[style*="width: 80%"] {
+    background-color: #4CAF50;
+}
