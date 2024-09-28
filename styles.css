@@ -162,11 +162,10 @@ h2 {
     text-decoration: underline;
 }
 
-/* Estilo para las barras de progreso */
 .progress-bar {
-    width: 100%; /* El ancho completo de la barra */
-    background-color: #e0e0e0; /* Color de fondo de la barra */
-    border-radius: 10px; /* Bordes redondeados */
+    width: 100%; 
+    background-color: #e0e0e0;
+    border-radius: 10px; 
     margin-top: 8px;
     margin-bottom: 15px;
     overflow: hidden;
@@ -177,17 +176,16 @@ h2 {
 }
 
 .progress {
-    height: 20px; /* Altura de la barra */
-    background-color: #e02d2d; /* Color de la barra de progreso */
-    text-align: center; /* Centrar el texto dentro de la barra */
-    line-height: 20px; /* Alinear el texto verticalmente */
-    color: white; /* Color del texto */
-    border-radius: 10px; /* Bordes redondeados */
+    height: 20px; 
+    background-color: #e02d2d;
+    text-align: center;
+    line-height: 20px; 
+    color: white;
+    border-radius:
 }
 
-/* Puedes usar este estilo para darle color y personalización a cada barra de acuerdo al porcentaje */
 .progress[style*="width: 60%"] {
-    background-color: #2196F3; /* Cambia el color según el porcentaje */
+    background-color: #2196F3;
 }
 
 .progress[style*="width: 40%"] {
